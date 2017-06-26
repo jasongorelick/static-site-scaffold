@@ -1,0 +1,35 @@
+// TODO: figure out how to use @import to include normalize,
+// bourbon, neat, etc. We should probably set up :external_pipeline
+
+body {
+  background-color: #fbc547;
+  color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
+    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
+    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
+    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  padding: 18vh 1rem;
+  text-align: center;
+}
+
+a {
+  color: rgba(#000, 0.7);
+
+  &:focus,
+  &:hover {
+    color: rgba(#000, 0.6);
+  }
+}
+
+.middleman-logo {
+  margin-bottom: 1rem;
+  width: 10rem;
+}
+
+.about-details-grid {
+  padding: 0;
+  @include outer-container(100%);
+  @include media($tablet) {
+    @include outer-container(80%);
+  }
+}
