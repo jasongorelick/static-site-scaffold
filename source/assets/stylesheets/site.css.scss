@@ -1,5 +1,4 @@
-// TODO: figure out how to use @import to include normalize,
-// bourbon, neat, etc. We should probably set up :external_pipeline
+//= require 'normalize.css/normalize.css'
 
 body {
   background-color: #fbc547;
@@ -24,12 +23,4 @@ a {
 .middleman-logo {
   margin-bottom: 1rem;
   width: 10rem;
-}
-
-.about-details-grid {
-  padding: 0;
-  @include outer-container(100%);
-  @include media($tablet) {
-    @include outer-container(80%);
-  }
 }

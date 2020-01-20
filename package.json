@@ -1,0 +1,30 @@
+{
+  "name": "static-site-scaffold",
+  "version": "1.0.0",
+  "description": "A scaffold for static sites using Middleman 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jqgorelick/static-site-scaffold.git"
+  },
+  "keywords": [
+    "middleman",
+    "middleman-4",
+    "static",
+    "site",
+    "scaffold"
+  ],
+  "author": "Jason Gorelick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jqgorelick/static-site-scaffold/issues"
+  },
+  "homepage": "https://github.com/jqgorelick/static-site-scaffold#readme",
+  "devDependencies": {
+    "jquery": "^3.4.1",
+    "normalize.css": "^8.0.1"
+  }
+}

@@ -7,12 +7,12 @@ activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
 
-sprockets.append_path File.join(root, 'bower_components')
+sprockets.append_path File.join(root, 'node_modules')
 
 set :css_dir, 'assets/stylesheets'
 set :js_dir, 'assets/javascripts'
 set :font_dir, 'assets/fonts'
-set :images_dir, 'images'
+set :images_dir, 'assets/images'
 
 # Layouts
 # https://middlemanapp.com/basics/layouts/
@@ -56,7 +56,6 @@ configure :development do
 end
 
 configure :build do
-  activate :sprockets
   activate :minify_css
   activate :minify_javascript
   activate :asset_hash
