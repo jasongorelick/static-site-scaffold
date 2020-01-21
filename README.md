@@ -37,3 +37,9 @@ Run `bundle exec rake test` to run the HTML proofer tests found in the `Rakefile
 ### Deploy
 
 This website can be deployed on any server that can host static websites.
+
+## Known Issues
+
+After updating versions, a clean install doesn't work properly.
+
+Seems to be related to this: https://github.com/middleman/middleman-sprockets/issues/132
