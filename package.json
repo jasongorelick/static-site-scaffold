@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/jqgorelick/static-site-scaffold#readme",
   "devDependencies": {
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "normalize.css": "^8.0.1"
   }
 }
